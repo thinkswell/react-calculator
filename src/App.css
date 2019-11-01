@@ -9,6 +9,15 @@ html{
    font-size: 62.5%;
 }
 
+.logo{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 10rem;
+  border-radius: 0 50%;
+  box-shadow: 0 0 10rem black;
+}
+
 .App {
   display: flex;
   justify-content: center;

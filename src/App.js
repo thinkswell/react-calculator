@@ -60,6 +60,7 @@ class App extends React.Component {
 render(){
   return (
     <div className="App">
+      <img src={process.env.PUBLIC_URL + "/logo.png"} alt="" class="logo"/>
       <div className="calc-wrapper">
       <div className="history">
         {this.state.history.map((ele, i) => {
